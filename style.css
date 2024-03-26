@@ -30,7 +30,7 @@
   --project-accent: var(--rose);
   --project-accent: aquamarine;
   --project-accent-hover: var(--teal-dark);
-  --box-shadow: #76ABAE;
+  --box-shadow: #31363F;
 }
 
 html {
@@ -92,7 +92,7 @@ body {
 .logo:hover .logo-svg,
 .logo:hover h2 {
   fill: #EEEEEE;
-  color: var(--darkslategray);
+  color: #EEEEEE;
 }
 
 .nav-main,
@@ -143,6 +143,7 @@ body {
 .search-icon {
   height: 22px;
   padding-right: 15px;
+  fill: #EEEEEE;
 }
 
 .search-bar {
@@ -152,7 +153,7 @@ body {
 }
 
 .search-bar:hover .search-icon {
-  fill: var(--white);
+  fill: #76ABAE;
 }
 
 #search-input {
@@ -185,6 +186,7 @@ body {
   height: 20px;
   padding: 0px 10px 0px;
   cursor: pointer;
+  fill: #EEEEEE;
 }
 
 .notifications-icon:hover {
@@ -269,22 +271,22 @@ body {
   width: 90px;
   text-align: center;
   border: 2px solid #222831;
-  box-shadow: 2px 2px 5px 1px var(--box-shadow);
+  box-shadow: 2px 2px 5px 1px #31363F;
   border-radius: 30px;
   padding: 10px 0px 10px;
 }
 
 .buttons-container > button:hover {
-  background-color: var(--button-hover);
+  background-color: #608d90;
   color: var(--button-text-hover);
   font-weight: 700;
   border: 2px solid var(--button-text-hover);
-  box-shadow: 2px 2px 10px 5px var(--box-shadow);
+  box-shadow: 2px 2px 10px 5px #31363F;
   cursor: pointer;
 }
 
 .main {
-  background-color: var(--main-bg);
+  background-color: #EEEEEE;
   grid-column: 2 / 3;
   grid-row: 2 / 3;
 
@@ -318,17 +320,16 @@ body {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 4fr 1fr;
-  background-color: var(--white);
+  background-color: #EEEEEE;
   height: 190px;
   border-radius: 8px;
-  border-left: 7px solid var(--project-accent);
-  box-shadow: 2px 2px 5px 1px var(--box-shadow);
+  border-left: 7px solid #222831;
+  box-shadow: 2px 2px 5px 1px #222831;
   padding: 25px 15px 20px 20px;
 }
 
 .project-card:hover {
-  border-left: 7px solid var(--project-accent-hover);
-  box-shadow: 2px 2px 10px 5px var(--box-shadow);
+  border-left: 7px solid #76ABAE;
 }
 
 .project-card a {
@@ -349,6 +350,10 @@ body {
   -webkit-box-orient: vertical;
   overflow: hidden;
   margin: 0px;
+}
+
+.project-info>h4>a{
+  color: #222831;
 }
 
 .project-actions {
@@ -377,7 +382,7 @@ body {
 }
 
 a {
-  color: var(--indigo-dark);
+  color: #5f9092;
   text-decoration: none;
 }
 
@@ -395,9 +400,9 @@ a:hover {
 
 .announcements-card {
   flex: 1;
-  background-color: var(--white);
+  background-color: #EEEEEE;
   border-radius: 8px;
-  box-shadow: 2px 2px 5px 1px var(--box-shadow);
+  box-shadow: 2px 2px 5px 1px #31363F;
   padding: 25px;
 }
 
@@ -408,6 +413,7 @@ a:hover {
 .announcement h5 {
   font-size: 12px;
   margin: 2px 0px 2px;
+  color:#31363F;
 }
 
 .announcement p {
@@ -446,7 +452,7 @@ hr {
   flex: 1;
   background-color: var(--white);
   border-radius: 8px;
-  box-shadow: 2px 2px 5px 1px var(--box-shadow);
+  box-shadow: 2px 2px 5px 1px #31363F;
   padding: 5px;
 }
 
@@ -470,6 +476,10 @@ hr {
 
 .trending-project {
   color: gray;
+}
+
+.user-name-full ,.user-name, .greeting{
+  color: #EEEEEE;
 }
 
 /* For smaller screens */
