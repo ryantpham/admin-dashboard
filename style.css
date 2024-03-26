@@ -59,7 +59,7 @@ body {
   height: 100vh;
   background-color: lightgray;
   display: grid;
-  grid-template-columns: 0.8fr 3fr;
+  grid-template-columns: 0.58fr 3fr;
   font-family: Arial, sans-serif;
   margin: 0px;
 }
